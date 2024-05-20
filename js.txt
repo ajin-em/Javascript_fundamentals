@@ -1,0 +1,21 @@
+JAVASCRIPT
+    Javascript is a programming language that is used to create interactive web pages.
+    It is a client-side scripting language, which means that it is executed in the browser.
+    It is a lightweight, interpreted language that is used to create dynamic web pages.
+    It is a high-level language that is easy to learn and use.
+    Javascript is a synchronous single threaded language.
+    It means that it can only do one thing at a time. It can't do two things at the same time.
+
+WORKING AND EXECUTION OF JS
+
+    Everything in JS happens inside an execution context. Execution context has two parts, which is variable evironment and Tread of execution.
+    Variable environment is a place where all the variables are stored. 
+    Thread of execution is a place where all the code is executed.
+    There are two types of execution context, Global execution context and Function execution context.
+    Global execution context is the default execution context. It is created when the script starts to execute. 
+    It is created before any function is called. Function execution context is created when a function is called.
+    It is created after the global execution context is created.
+    When a function is called, the global execution context is paused and the function execution context is created.
+    When the function execution context is created, the variable environment is created. 
+    The variable environment is created by the function.
+
