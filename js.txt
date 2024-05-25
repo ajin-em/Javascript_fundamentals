@@ -19,3 +19,10 @@ WORKING AND EXECUTION OF JS
     When the function execution context is created, the variable environment is created. 
     The variable environment is created by the function.
 
+LEXICAL SCOPE
+
+    Lexical scope (also known as static scope) refers to the scope defined by the structure of the code at writing time.
+    It determines how variable names are resolved in nested functions: the scope is defined by the physical placement of the variables and blocks in the source code.
+
+    Scope: The region of the code where a variable is defined and accessible.
+    Lexical: Refers to the way in which the structure of the code defines the scope.
