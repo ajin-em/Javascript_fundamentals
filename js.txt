@@ -26,3 +26,9 @@ LEXICAL SCOPE
 
     Scope: The region of the code where a variable is defined and accessible.
     Lexical: Refers to the way in which the structure of the code defines the scope.
+
+BLOCK SCOPE
+    Block scope refers to the scope that is created with curly braces {}.
+    Variables declared inside a block are only accessible within that block.
+    Block scope is introduced by using the let and const keywords. 
+    Prior to ES6, JavaScript only had function scope and global scope, but ES6 introduced block scope.
