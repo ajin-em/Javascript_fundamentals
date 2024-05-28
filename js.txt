@@ -32,3 +32,27 @@ BLOCK SCOPE
     Variables declared inside a block are only accessible within that block.
     Block scope is introduced by using the let and const keywords. 
     Prior to ES6, JavaScript only had function scope and global scope, but ES6 introduced block scope.
+
+CLOSURE
+    closure is a feature where an inner function has access to the outer (enclosing) function’s variables. 
+    A closure is created when a function is defined inside another function, 
+    and the inner function retains access to the variables of the outer function even after the outer function has finished executing.
+
+{% comment %} function Statement {% endcomment %}
+
+    function a(){
+        console.log("called a");
+    }
+
+{% comment %} function expression {% endcomment %}
+
+    var b = function (){
+        console.log("called b")
+    }
+
+{% comment %} function declaration {% endcomment %}
+
+    function functionName(parameters) {
+        // function body
+    }
+    function declaration and function Statement are same.
